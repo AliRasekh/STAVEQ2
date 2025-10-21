@@ -5,5 +5,3 @@ Enhancing Temporal Understanding in Video-LLMs through Stacked Temporal Attentio
 ## Links
 
 - [GitHub Code](https://github.com/AliRasekh/STAVEQ2)
-- [Demo Notebook](#) (to be added)
-- [Supplementary Material](supplementary.pdf) (to be added)
