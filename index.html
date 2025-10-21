@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>STAVEQ2: Enhancing Temporal Understanding in Video-LLMs</title>
+    <style>
+        body { font-family: Arial, sans-serif; max-width: 900px; margin: auto; padding: 20px; line-height: 1.6; }
+        h1, h2 { color: #333; }
+        a { color: #1a0dab; text-decoration: none; }
+        a:hover { text-decoration: underline; }
+        .authors { margin-bottom: 20px; }
+    </style>
+</head>
+<body>
+    <h1>STAVEQ2: Enhancing Temporal Understanding in Video-LLMs</h1>
+
+    <div class="authors">
+        <strong>Authors:</strong> Ali Rasekh, Erfan Bagheri Soula*, Omid Daliran*, Simon Gottschalk, Mohsen Fayyaz <br>
+        *Denotes equal contribution
+    </div>
+
+    <h2>Abstract</h2>
+    <p>
+        Despite significant advances in Multimodal Large Language Models (MLLMs), understanding complex temporal dynamics in videos remains a major challenge. 
+        Our experiments show that current Video Large Language Model (Video-LLM) architectures have critical limitations in temporal understanding, struggling with tasks that require detailed comprehension of action sequences and temporal progression. 
+        In this work, we propose a Video-LLM architecture that introduces stacked temporal attention modules directly within the vision encoder. 
+        This design incorporates a temporal attention in the vision encoder, enabling the model to better capture the progression of actions and the relationships between frames before passing visual tokens to the LLM. 
+        Our results show that this approach significantly improves temporal reasoning and outperforms existing models in video question answering tasks, specifically in action recognition. 
+        We improve on benchmarks including VITATECS, MVBench, and Video-MME by up to +5.5%.
+    </p>
+
+    <h2>Links</h2>
+    <ul>
+        <li><a href="https://github.com/AliRasekh/STAVEQ2" target="_blank">GitHub Code</a></li>
+        <!-- Replace with demo URL if available -->
+        <li><a href="#" target="_blank">Demo Notebook / Video</a></li>
+        <!-- Optional: Supplementary PDF -->
+        <li><a href="supplementary.pdf" target="_blank">Supplementary Material</a></li>
+    </ul>
+</body>
+</html>
