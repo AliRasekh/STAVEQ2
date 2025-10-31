@@ -1,0 +1,1 @@
+Download the base model 1B_ft_ssv2_f8.pth from https://huggingface.co/OpenGVLab/InternVideo2-Stage1-1B-224p-f8-SthSth/tree/main and place it in base_model directory before running any code.
